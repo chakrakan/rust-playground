@@ -1,0 +1,11 @@
+C:\Users\kanis\Documents\workspace\rust-book\guessing-game\game\target\release\deps\ppv_lite86-a1ff49d1365bfe8d.rmeta: C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\lib.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\soft.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\types.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\mod.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\sse2.rs
+
+C:\Users\kanis\Documents\workspace\rust-book\guessing-game\game\target\release\deps\libppv_lite86-a1ff49d1365bfe8d.rlib: C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\lib.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\soft.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\types.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\mod.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\sse2.rs
+
+C:\Users\kanis\Documents\workspace\rust-book\guessing-game\game\target\release\deps\ppv_lite86-a1ff49d1365bfe8d.d: C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\lib.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\soft.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\types.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\mod.rs C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\sse2.rs
+
+C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\lib.rs:
+C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\soft.rs:
+C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\types.rs:
+C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\mod.rs:
+C:\Users\kanis\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.8\src\x86_64\sse2.rs:
