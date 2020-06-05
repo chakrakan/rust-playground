@@ -14,6 +14,7 @@ fn main() {
     // diff between defaul vars and constants
     // 1) you can't use mut with constants, it's implied that you can't change them
     const MAX_POINTS: u32 = 100_000;
+    println!("{}", MAX_POINTS);
     // 2.) declare with 'const' instead of let
     // 3.) can be declared in any scope, including global scope
     // 4.) constants may be set only to a constant expression, not the result of a function call or 
@@ -55,35 +56,35 @@ fn main() {
     // compile using --release tag and wrapping occurs (wrap around back to 0, or min value of type)
 
     // for floats, default type is f64 because it's capable of more precision and roughly same speed as f32
-    let xyz = 2.0; // default f64
-    let f: f32 = 2.0; // explicit f32
+    let _xyz = 2.0; // default f64
+    let _f: f32 = 2.0; // explicit f32
 
     // Numeric operations
 
     // addition
-    let sum = 5 + 10;
+    let _sum = 5 + 10;
 
     // subtraction
-    let difference = 95.5 - 4.3;
+    let _difference = 95.5 - 4.3;
 
     // multiplication
-    let product = 4 * 30;
+    let _product = 4 * 30;
 
     // division
-    let quotient = 56.7 / 32.2;
+    let _quotient = 56.7 / 32.2;
 
     // remainder
-    let remainder = 43 % 5;
+    let _remainder = 43 % 5;
 
     // boolean is 1 byte in size
-    let t = true;
+    let _t = true;
 
-    let f: bool = false; // with explicit type annotation
+    let _f: bool = false; // with explicit type annotation
 
     // Char
-    let c = 'z';
-    let z = 'ℤ';
-    let heart_eyed_cat = '😻';
+    let _c = 'z';
+    let _z = 'ℤ';
+    let _heart_eyed_cat = '😻';
 
     // Rust’s char type is four bytes in size and represents a Unicode Scalar Value, 
     // which means it can represent a lot more than just ASCII. Accented letters; 
@@ -97,12 +98,12 @@ fn main() {
 
     // Tuple
     // Tuples have a fixed length: once declared, they cannot grow or shrink in size
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let _tup: (i32, f64, u8) = (500, 6.4, 1);
 
     // pattern matching to destructure tuple values and output them
     let wow = (1000, 2.8, 1);
-    let (m, n, o) = wow;
-    println!("Val of n is {}", n);
+    let (_m, _n, _o) = wow;
+    println!("Val of n is {}", _n);
     // you can also access a tuple var using 'tup.[index]' notation
     println!("OH my ${}", wow.0);
 
@@ -114,7 +115,7 @@ fn main() {
 
     let arr = [1, 2, 3, 4, 5];
     // more explicitly [type; size]
-    let arrTypeDef: [i32; 5] = [2, 4, 6, 8, 10];
+    let _arr_type_def: [i32; 5] = [2, 4, 6, 8, 10];
     println!("{}", arr[2]);
     // if your index is out of range you'll get a runtime error and exit successfully
     // Rust is safe <3
