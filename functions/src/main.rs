@@ -15,8 +15,43 @@ fn main() {
 
     println!("Val of z {}, val of y {}", z, y);
 
+    if_divisible(34);
+
     // functions return values to code that calls them
     // we don't name return values but we delcare their type after arrow
+
+    // returning values from loop
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+
+    println!("Result is {}", result);
+
+    // while loop to eval condition eliminates redundant if else with loop
+
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{}!", number);
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
+
+    let sample: [i32; 5] = [1, 3, 4, 6, 8];
+    println!("Sum of a collection is {}", loop_collection(sample));
+
+    // lastly, how to use a regular for loop ..= (inclusive range), .. exclusive range
+    for num in 1..=5 {
+        println!("{}", num);
+    }
 }
 
 // func defs start with fn with param and its type
@@ -31,4 +66,29 @@ fn five() -> i32 {
 }
 
 // NOTE: adding semicolons to the expressions will cause errors cause they will be interpreted as statements.
-            
+
+// control flow
+fn if_divisible(number: u32) {
+    if number % 4 == 0 {
+        println!("number is divisible by 4");
+    } else if number % 3 == 0 {
+        println!("number is divisible by 3");
+    } else if number % 2 == 0 {
+        println!("number is divisible by 2");
+    } else {
+        println!("number is not divisible by 4, 3, or 2");
+    }
+
+    // if in a let statement
+    let random_num = if true { 3 } else { 9 };
+    println!("{}", random_num);
+}
+
+// fn to iterate over a collection with for loop and provide sum
+fn loop_collection(arr: [i32; 5]) -> i32 {
+    let mut sum = 0;
+    for ele in arr.iter() {
+        sum += ele;
+    }
+    return sum;
+}
