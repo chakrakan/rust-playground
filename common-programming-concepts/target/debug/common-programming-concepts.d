@@ -1,0 +1,1 @@
+C:\Users\kanis\Documents\workspace\rust-book\common-programming-concepts\target\debug\common-programming-concepts.exe: C:\Users\kanis\Documents\workspace\rust-book\common-programming-concepts\src\main.rs
