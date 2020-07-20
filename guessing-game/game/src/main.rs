@@ -5,7 +5,7 @@ use std::cmp::Ordering;
 
 fn main() {
 
-    // 1 to 101 inclusive lower exclusive upper bound
+    // 1 to 10 inclusive lower exclusive upper bound
     let secret_number = rand::thread_rng().gen_range(1, 11);
 
     // macro to print line
